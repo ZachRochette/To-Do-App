@@ -1,10 +1,10 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Currently this is the first app I have created and it is a simple to do list.
+Upon opening the app you will see three things, a line where you can enter items, an Add button and a Delete button. To use the app simply type an item to add to your to-do list, and then click add to submit that item to the list. Once you have some items or an item in your list you can then check them off, and click the delete button to remove them from the list. 
 
-{Provide a description of your app.  Describe how to use the app.}
+This is the first app I have created using Kotlin and Android Studio. The purpose was to get familiar with the Kotlin language and the Android Studio IDE. 
 
-{Describe your purpose for creating this app.}
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
