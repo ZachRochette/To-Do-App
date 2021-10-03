@@ -5,9 +5,6 @@ Upon opening the app you will see three things, a line where you can enter items
 
 This is the first app I have created using Kotlin and Android Studio. The purpose was to get familiar with the Kotlin language and the Android Studio IDE. 
 
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
 [Software Demo Video](https://youtu.be/edoUHi9HiwM)
 
 # Development Environment
