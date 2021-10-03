@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var todoAdapter: TodoAdapter
 
+    //assign functions for the general run through of the app
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         rvToDoItems.adapter = todoAdapter
         rvToDoItems.layoutManager = LinearLayoutManager(this)
 
+        //behavior for the button add
         btnTodo.setOnClickListener {
             val todoTitle = etTodoTitle.text.toString()
             if(todoTitle.isNotEmpty()) {
@@ -25,6 +27,7 @@ class MainActivity : AppCompatActivity() {
                 etTodoTitle.text.clear()
             }
         }
+        //behavior for the delete button
         btnDeleteDoneTodos.setOnClickListener {
             todoAdapter.deleteDoneTodos()
         }

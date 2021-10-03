@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    //Views
+    //create a display for our list items
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvToDoItems"
         android:layout_width="match_parent"
