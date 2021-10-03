@@ -12,19 +12,24 @@ This is the first app I have created using Kotlin and Android Studio. The purpos
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used Android Studio to develop the app, and I used the AVD manager to run a virtual phone so that I could test the app. 
 
-{Describe the programming language that you used and any libraries.}
+I used the Kotlin language to develop the app. Here are all of the imports I used while making the app. 
+import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.item_todo.view.*
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [W3Schools.com](https://www.w3schools.com/)
+* [Android.com](https://developer.android.com/training/basics/firstapp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Connect the app to a database so that your list can be saved on your phone, it won't be removed when you close your phone or the app
+* Add more scheduling help pages like a calendar where you can set appointments and mark down times for things
+* Add a delete all option
