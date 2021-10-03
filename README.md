@@ -8,7 +8,7 @@ This is the first app I have created using Kotlin and Android Studio. The purpos
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/edoUHi9HiwM)
 
 # Development Environment
 
